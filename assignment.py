@@ -83,10 +83,11 @@ t.circle(100,180)
 t.right(270)
 
 t.penup()
-t.goto(53,0)
+t.goto(101,-5)
+t.pendown()
 t.pencolor("orange")
 t.left(90)
-t.circle(110,190)
+t.circle(100,180)
 t.right(270)
 
 
