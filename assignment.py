@@ -199,6 +199,26 @@ t.left(90)
 t.forward(30)
 t.end_fill()
 
+
+#rigth top
+t.penup()
+t.goto(240,50)
+
+
+t.pendown()
+t.fillcolor("black")
+t.begin_fill()
+t.forward(30)
+t.left(90)
+t.forward(60)
+t.left(90)
+t.forward(30)
+t.left(90)
+t.forward(60)
+t.end_fill()
+
+
+
 """
 #inside circle
 t.penup()
