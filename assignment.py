@@ -1,4 +1,4 @@
-import turtle
+"""import turtle
 s = turtle.getscreen()
 t= turtle.Turtle()
 s.bgcolor("light blue")
@@ -83,12 +83,134 @@ t.circle(100,180)
 t.right(270)
 
 t.penup()
-t.goto(101,-5)
+t.goto(101,-8)
 t.pendown()
 t.pencolor("orange")
 t.left(90)
-t.circle(100,180)
-t.right(270)
+t.circle(105,185)
+t.right(275)"""
 
 
+
+import turtle
+s = turtle.getscreen()
+t= turtle.Turtle()
+
+# background
+
+t.penup()
+t.goto(-300,-200)
+t.pendown()
+t.forward(600)
+t.left(90)
+t.forward(400)
+t.left(90)
+t.forward(600)
+t.left(90)
+t.forward(400)
+
+
+#top circle
+t.penup()
+t.home()
+t.penup()
+t.goto(110,0)
+
+
+
+
+#circle
+t.penup()
+t.home()
+t.penup()
+t.goto(110,0)
+
+t.pendown()
+t.fillcolor("blue")
+t.begin_fill()
+t.left(90)
+t.circle(110,180)
+t.circle(55,180)
+t.circle(-55,180)
+t.end_fill()  
+
+t.penup()
+t.goto(-110,0)
+t.pendown()
+t.fillcolor("red")
+t.begin_fill()
+t.circle(110,180)
+t.circle(55,180)
+t.circle(-55,180)
+t.end_fill()
+
+
+
+#left top
+
+t.penup()
+t.goto(-240,50)
+t.left(60)
+
+t.pendown()
+t.fillcolor("black")
+t.begin_fill()
+t.forward(30)
+t.left(-90)
+t.forward(130)
+t.left(-90)
+t.forward(30)
+t.left(-90)
+t.forward(130)
+t.end_fill()
+
+t.penup()
+t.left(90)
+t.forward(10)
+
+t.pendown()
+t.fillcolor("black")
+t.begin_fill()
+t.forward(30)
+t.left(90)
+t.forward(130)
+t.left(90)
+t.forward(30)
+t.left(90)
+t.forward(130)
+t.left(90)
+t.forward(30)
+t.end_fill()
+
+t.penup()
+t.forward(10)
+
+t.pendown()
+t.fillcolor("black")
+t.begin_fill()
+t.forward(30)
+t.left(90)
+t.forward(130)
+t.left(90)
+t.forward(30)
+t.left(90)
+t.forward(130)
+t.left(90)
+t.forward(30)
+t.end_fill()
+
+"""
+#inside circle
+t.penup()
+t.goto(110,0)
+t.pendown()
+t.fillcolor("blue")   
+t.left(90)
+t.begin_fill()
+t.circle(55,180)
+t.circle(-55,180)
+
+t.penup()
+t.goto(0,100)
+t.pendown()"""
 
