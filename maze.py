@@ -44,6 +44,14 @@ t.right(90)
 t.forward(50)
 t.left(90)
 t.forward(90)
+t.right(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(95)
+t.right(90)
+t.forward(30)
 
 
 
