@@ -16,11 +16,6 @@ t.left(90)
 t.forward(460)
 
 
-#top circle
-t.penup()
-t.home()
-t.penup()
-t.goto(110,0)
 
 
 
@@ -267,7 +262,6 @@ t.forward(30)
 t.left(90)
 t.forward(130)
 t.end_fill()
-
 
 
 
